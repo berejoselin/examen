@@ -47,10 +47,15 @@ docker run -d -p 8085:80 ngnix
 docker run -d -p 8086:80 ngnix
 
 **************************************************************************
-Probarlo en: http://localhost:XXXX/api/sumar?a=Y&b=Z
+Probarlo en: 
+http://localhost:XXXX/api/sumar?a=Y&b=Z
+
 http://localhost:XXXX/api/restar?a=Y&b=Z
+
 http://localhost:XXXX/api/multiplica?a=Y&b=Z
+
 http://localhost:XXXX/api/divide?a=Y&b=Z
+
 (donde las XXXX es el numero de puerto del frontend del HAProxy,
 Y y Z son los numeros de la operación seleccionada)
 
